@@ -1,7 +1,14 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: false,
   HOME_BANNER_GREETINGS: ['Hi，我是一个程序员', 'Hi，我是一个打工人', 'Hi，我是一个干饭人', '欢迎来到我的博客🎉'], // 首页大图标语文字
+  
+  NAV_TYPE: 'normal', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部、屏幕顶部自动折叠，不固定
 
+  POST_LIST_TYPE: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
+  POST_LIST_COVER: false, // 文章列表显示封面图
+  POST_LIST_PREVIEW: true, // 显示文章预览
+  POST_LIST_SUMMARY: false, // 显示用户自定义摘要，有预览时优先只展示预览
+  
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
   MENU_TAG: true, // 显示标签
