@@ -22,5 +22,9 @@ const CONFIG_HEXO = {
   WIDGET_TO_COMMENT: true, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
   WIDGET_TOC: true // 移动端悬浮目录
+  
+  RIGHT_CATEGORY_LIST: true, // 右侧边栏文章分类列表
+  RIGHT_TAG_LIST: true, // 右侧边栏标签分类列表
+  RIGHT_AD: false, // 右侧广告
 }
 export default CONFIG_HEXO
